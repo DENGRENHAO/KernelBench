@@ -2,6 +2,7 @@
 Helpers for Evaluations
 """
 
+import re
 import requests
 import torch
 import torch.nn as nn
@@ -357,25 +358,52 @@ def eval_kernel_against_ref(
         torch.cuda.synchronize(device=device)  # not sure if this is too much
     except Exception as e:
         print(
-            f"Failed to compile custom CUDA kernel: Record as compilation failure. \nError: {e}"
+            f"Failed to compile custom CUDA kernel: Record as compilation failure."
         )
         # TODO: add metadata for compilation error (how to we get the compilation error message?)
 
-        if "lock" in str(e) or "No such file or directory" in str(e):
-            # this is a lock file error, likely due to concurrent compilation
-            # this does not necessarily mean the compilation failed, but we should retry
-            print(
-                f"[Eval] Lock file error during compilation, Please retry. Error: {e}"
-            )
-            graceful_eval_cleanup(context, device)
-            return None
-        else:
-            metadata["compilation_error"] = e
-            graceful_eval_cleanup(context, device)
-            return KernelExecResult(
-                compiled=False, metadata=metadata
-            )  # skip further steps
+        # if "lock" in str(e) or "No such file or directory" in str(e):
+        #     # this is a lock file error, likely due to concurrent compilation
+        #     # this does not necessarily mean the compilation failed, but we should retry
+        #     print(
+        #         f"[Eval] Lock file error during compilation, Please retry. Error: {e}"
+        #     )
+        #     graceful_eval_cleanup(context, device)
+        #     return None
+        # else:
+        #     metadata["compilation_error"] = e
+        #     graceful_eval_cleanup(context, device)
+        #     return KernelExecResult(
+        #         compiled=False, metadata=metadata
+        #     )  # skip further steps
 
+        full_error_message = str(e)
+
+        brief_error_lines = []
+        # Regex to capture lines with 'cuda.cu(LINE_NUMBER): error: MESSAGE'
+        error_pattern = re.compile(r"^(.*?cuda\.cu\(\d+\)): (error: .*)$", re.MULTILINE)
+        
+        # Extracting relevant lines
+        for line in full_error_message.splitlines():
+            match = error_pattern.match(line)
+            if match:
+                brief_error_lines.append(line.strip())
+                if len(brief_error_lines) >= 3: # Limit to top 5 errors
+                    brief_error_lines.append("... (more errors truncated)")
+                    break
+        
+        if not brief_error_lines:
+            brief_error = "Compilation failed with an unparsed error. Original error start: " + full_error_message.splitlines()[0] + "\n..."
+        else:
+            brief_error = "\n".join(brief_error_lines)
+
+        metadata["compilation_error"] = brief_error
+        graceful_eval_cleanup(context, device)
+        return KernelExecResult(
+            compiled=False, metadata=metadata
+        )  # skip further steps
+
+    print("PASSED COMPILATION")
     # at this point we passed compilation
     try:
         with torch.no_grad():
@@ -452,7 +480,7 @@ def eval_kernel_against_ref(
         except Exception as e:
             if verbose:
                 print(f"[Eval] Error in Measuring Performance: {e}")
-            kernel_exec_result.metadata["error_during_performance"] = e
+            kernel_exec_result.metadata["error_during_performance"] = str(e)
 
     graceful_eval_cleanup(context, device)
     return kernel_exec_result

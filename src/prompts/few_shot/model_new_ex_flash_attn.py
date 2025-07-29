@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.cpp_extension import load_inline
 
-source = '''
+source = """
 #include <torch/extension.h>
 #include <stdio.h>
 #include <c10/cuda/CUDAException.h>
@@ -119,7 +119,7 @@ torch::Tensor attention(torch::Tensor Q, torch::Tensor K, torch::Tensor V) {
     );
     return O;
 }
-'''
+"""
 cpp_src = """
 torch::Tensor attention(torch::Tensor Q, torch::Tensor K, torch::Tensor V);"""
 

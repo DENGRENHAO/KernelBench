@@ -194,11 +194,10 @@ def test_measure_particular_program(level_num: int, problem_id: int):
 
 if __name__ == "__main__":
     # DEBUG and simple testing
-    # test_measure_particular_program(2, 28)
+    test_measure_particular_program(2, 28)
     
     # Replace this with whatever hardware you are running on 
-    # hardware_name = "L40S_matx3"
-    hardware_name = "H100_PCIe_LambdaLabs"
+    hardware_name = "RTX4090_36"
 
     input(f"You are about to start recording baseline time for {hardware_name}, press Enter to continue...")
     # Systematic recording of baseline time
