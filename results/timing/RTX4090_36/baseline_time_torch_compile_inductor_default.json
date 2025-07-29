@@ -1,0 +1,2242 @@
+{
+    "level1": {
+        "1_Square_matrix_multiplication_.py": {
+            "mean": 2.58,
+            "std": 0.0992,
+            "min": 2.4,
+            "max": 2.66,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "2_Standard_matrix_multiplication_.py": {
+            "mean": 2.54,
+            "std": 0.0784,
+            "min": 2.34,
+            "max": 2.62,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "3_Batched_matrix_multiplication.py": {
+            "mean": 6.24,
+            "std": 0.155,
+            "min": 5.64,
+            "max": 6.61,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "4_Matrix_vector_multiplication_.py": {
+            "mean": 8.99,
+            "std": 0.00264,
+            "min": 8.99,
+            "max": 9.01,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "5_Matrix_scalar_multiplication.py": {
+            "mean": 9.35,
+            "std": 0.00534,
+            "min": 9.34,
+            "max": 9.37,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "6_Matmul_with_large_K_dimension_.py": {
+            "mean": 1.65,
+            "std": 0.0462,
+            "min": 1.57,
+            "max": 1.72,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "7_Matmul_with_small_K_dimension_.py": {
+            "mean": 5.57,
+            "std": 0.00993,
+            "min": 5.54,
+            "max": 5.59,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "8_Matmul_with_irregular_shapes_.py": {
+            "mean": 5.96,
+            "std": 0.0714,
+            "min": 5.59,
+            "max": 6.07,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "9_Tall_skinny_matrix_multiplication_.py": {
+            "mean": 5.32,
+            "std": 0.00747,
+            "min": 5.3,
+            "max": 5.36,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "10_3D_tensor_matrix_multiplication.py": {
+            "mean": 1.03,
+            "std": 0.0272,
+            "min": 0.983,
+            "max": 1.05,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "11_4D_tensor_matrix_multiplication.py": {
+            "mean": 9.64,
+            "std": 0.191,
+            "min": 9.01,
+            "max": 10.1,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "12_Matmul_with_diagonal_matrices_.py": {
+            "mean": 2.5,
+            "std": 0.13,
+            "min": 2.27,
+            "max": 2.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "13_Matmul_for_symmetric_matrices.py": {
+            "mean": 2.57,
+            "std": 0.124,
+            "min": 2.39,
+            "max": 2.77,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "14_Matmul_for_upper_triangular_matrices.py": {
+            "mean": 2.56,
+            "std": 0.0936,
+            "min": 2.31,
+            "max": 2.63,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "15_Matmul_for_lower_triangular_matrices.py": {
+            "mean": 2.54,
+            "std": 0.0934,
+            "min": 2.31,
+            "max": 2.61,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "16_Matmul_with_transposed_A.py": {
+            "mean": 2.41,
+            "std": 0.0838,
+            "min": 2.17,
+            "max": 2.5,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "17_Matmul_with_transposed_B.py": {
+            "mean": 3.46,
+            "std": 0.169,
+            "min": 3.08,
+            "max": 3.82,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "18_Matmul_with_transposed_both.py": {
+            "mean": 2.57,
+            "std": 0.135,
+            "min": 2.28,
+            "max": 2.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "19_ReLU.py": {
+            "mean": 14.0,
+            "std": 0.00478,
+            "min": 14.0,
+            "max": 14.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "20_LeakyReLU.py": {
+            "mean": 14.0,
+            "std": 0.00414,
+            "min": 14.0,
+            "max": 14.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "21_Sigmoid.py": {
+            "mean": 14.0,
+            "std": 0.00507,
+            "min": 14.0,
+            "max": 14.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "22_Tanh.py": {
+            "mean": 14.0,
+            "std": 0.00263,
+            "min": 14.0,
+            "max": 14.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "23_Softmax.py": {
+            "mean": 27.7,
+            "std": 0.016,
+            "min": 27.7,
+            "max": 27.8,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "24_LogSoftmax.py": {
+            "mean": 27.7,
+            "std": 0.00829,
+            "min": 27.6,
+            "max": 27.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "25_Swish.py": {
+            "mean": 14.0,
+            "std": 0.00264,
+            "min": 14.0,
+            "max": 14.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "26_GELU_.py": {
+            "mean": 14.0,
+            "std": 0.00295,
+            "min": 14.0,
+            "max": 14.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "27_SELU_.py": {
+            "mean": 14.0,
+            "std": 0.00371,
+            "min": 14.0,
+            "max": 14.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "28_HardSigmoid.py": {
+            "mean": 14.0,
+            "std": 0.00252,
+            "min": 14.0,
+            "max": 14.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "29_Softplus.py": {
+            "mean": 14.0,
+            "std": 0.00289,
+            "min": 14.0,
+            "max": 14.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "30_Softsign.py": {
+            "mean": 14.0,
+            "std": 0.0152,
+            "min": 14.0,
+            "max": 14.2,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "31_ELU.py": {
+            "mean": 14.0,
+            "std": 0.00388,
+            "min": 14.0,
+            "max": 14.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "32_HardTanh.py": {
+            "mean": 14.0,
+            "std": 0.00286,
+            "min": 14.0,
+            "max": 14.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "33_BatchNorm.py": {
+            "mean": 13.8,
+            "std": 0.00508,
+            "min": 13.8,
+            "max": 13.9,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "34_InstanceNorm.py": {
+            "mean": 24.6,
+            "std": 0.0171,
+            "min": 24.6,
+            "max": 24.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "35_GroupNorm_.py": {
+            "mean": 24.2,
+            "std": 0.0194,
+            "min": 24.2,
+            "max": 24.4,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "36_RMSNorm_.py": {
+            "mean": 24.6,
+            "std": 0.00536,
+            "min": 24.6,
+            "max": 24.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "37_FrobeniusNorm_.py": {
+            "mean": 24.2,
+            "std": 0.00399,
+            "min": 24.2,
+            "max": 24.2,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "38_L1Norm_.py": {
+            "mean": 31.3,
+            "std": 0.034,
+            "min": 31.2,
+            "max": 31.4,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "39_L2Norm_.py": {
+            "mean": 31.6,
+            "std": 0.0259,
+            "min": 31.5,
+            "max": 31.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "40_LayerNorm.py": {
+            "mean": 1.26,
+            "std": 0.00626,
+            "min": 1.25,
+            "max": 1.28,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "41_Max_Pooling_1D.py": {
+            "mean": 14.3,
+            "std": 0.00423,
+            "min": 14.3,
+            "max": 14.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "42_Max_Pooling_2D.py": {
+            "mean": 4.66,
+            "std": 0.00224,
+            "min": 4.66,
+            "max": 4.67,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "43_Max_Pooling_3D.py": {
+            "mean": 6.02,
+            "std": 0.00199,
+            "min": 6.01,
+            "max": 6.03,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "44_Average_Pooling_1D.py": {
+            "mean": 4.68,
+            "std": 0.0021,
+            "min": 4.67,
+            "max": 4.68,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "45_Average_Pooling_2D.py": {
+            "mean": 20.3,
+            "std": 0.0201,
+            "min": 20.3,
+            "max": 20.5,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "46_Average_Pooling_3D.py": {
+            "mean": 10.4,
+            "std": 0.00668,
+            "min": 10.4,
+            "max": 10.4,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "47_Sum_reduction_over_a_dimension.py": {
+            "mean": 11.2,
+            "std": 0.0377,
+            "min": 11.1,
+            "max": 11.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "48_Mean_reduction_over_a_dimension.py": {
+            "mean": 11.2,
+            "std": 0.0374,
+            "min": 11.1,
+            "max": 11.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "49_Max_reduction_over_a_dimension.py": {
+            "mean": 11.2,
+            "std": 0.0441,
+            "min": 11.1,
+            "max": 11.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "50_conv_standard_2D__square_input__square_kernel.py": {
+            "mean": 2.43,
+            "std": 0.00249,
+            "min": 2.43,
+            "max": 2.44,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "51_Argmax_over_a_dimension.py": {
+            "mean": 10.5,
+            "std": 0.0548,
+            "min": 10.4,
+            "max": 10.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "52_Argmin_over_a_dimension.py": {
+            "mean": 10.5,
+            "std": 0.0531,
+            "min": 10.4,
+            "max": 10.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "53_Min_reduction_over_a_dimension.py": {
+            "mean": 11.2,
+            "std": 0.0589,
+            "min": 11.0,
+            "max": 11.5,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "54_conv_standard_3D__square_input__square_kernel.py": {
+            "mean": 5.71,
+            "std": 0.0047,
+            "min": 5.71,
+            "max": 5.72,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "55_conv_standard_2D__asymmetric_input__square_kernel.py": {
+            "mean": 17.3,
+            "std": 0.0233,
+            "min": 17.3,
+            "max": 17.5,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "56_conv_standard_2D__asymmetric_input__asymmetric_kernel.py": {
+            "mean": 9.28,
+            "std": 0.0063,
+            "min": 9.26,
+            "max": 9.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "57_conv_transposed_2D__square_input__square_kernel.py": {
+            "mean": 22.4,
+            "std": 0.0131,
+            "min": 22.3,
+            "max": 22.4,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "58_conv_transposed_3D__asymmetric_input__asymmetric_kernel.py": {
+            "mean": 1.52,
+            "std": 0.0225,
+            "min": 1.48,
+            "max": 1.55,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "59_conv_standard_3D__asymmetric_input__square_kernel.py": {
+            "mean": 13.4,
+            "std": 0.0208,
+            "min": 13.4,
+            "max": 13.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "60_conv_standard_3D__square_input__asymmetric_kernel.py": {
+            "mean": 18.0,
+            "std": 0.00297,
+            "min": 18.0,
+            "max": 18.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "61_conv_transposed_3D__square_input__square_kernel.py": {
+            "mean": 23.1,
+            "std": 0.22,
+            "min": 22.0,
+            "max": 24.4,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "62_conv_standard_2D__square_input__asymmetric_kernel.py": {
+            "mean": 6.97,
+            "std": 0.00347,
+            "min": 6.97,
+            "max": 6.98,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "63_conv_standard_2D__square_input__square_kernel.py": null,
+        "64_conv_transposed_1D.py": {
+            "mean": 9.95,
+            "std": 0.224,
+            "min": 9.39,
+            "max": 10.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "65_conv_transposed_2D__square_input__asymmetric_kernel.py": {
+            "mean": 8.08,
+            "std": 0.00418,
+            "min": 8.07,
+            "max": 8.09,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "66_conv_standard_3D__asymmetric_input__asymmetric_kernel.py": {
+            "mean": 8.88,
+            "std": 0.00224,
+            "min": 8.87,
+            "max": 8.88,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "67_conv_standard_1D.py": {
+            "mean": 6.07,
+            "std": 0.00456,
+            "min": 6.06,
+            "max": 6.09,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "68_conv_transposed_3D__square_input__asymmetric_kernel.py": {
+            "mean": 25.6,
+            "std": 0.457,
+            "min": 24.2,
+            "max": 26.1,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "69_conv_transposed_2D__asymmetric_input__asymmetric_kernel.py": {
+            "mean": 11.3,
+            "std": 0.0051,
+            "min": 11.3,
+            "max": 11.4,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "70_conv_transposed_3D__asymmetric_input__square_kernel.py": {
+            "mean": 73.7,
+            "std": 0.0862,
+            "min": 73.6,
+            "max": 74.1,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "71_conv_transposed_2D__asymmetric_input__square_kernel.py": {
+            "mean": 5.86,
+            "std": 0.017,
+            "min": 5.85,
+            "max": 6.02,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "72_conv_transposed_3D_asymmetric_input_asymmetric_kernel___strided_padded_grouped_.py": {
+            "mean": 4.1,
+            "std": 0.00522,
+            "min": 4.09,
+            "max": 4.11,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "73_conv_transposed_3D_asymmetric_input_square_kernel__strided_padded__grouped.py": {
+            "mean": 7.75,
+            "std": 0.00302,
+            "min": 7.74,
+            "max": 7.76,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "74_conv_transposed_1D_dilated.py": {
+            "mean": 2.47,
+            "std": 0.0423,
+            "min": 2.39,
+            "max": 2.55,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "75_conv_transposed_2D_asymmetric_input_asymmetric_kernel_strided__grouped____padded____dilated__.py": {
+            "mean": 9.8,
+            "std": 0.00674,
+            "min": 9.78,
+            "max": 9.81,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "76_conv_standard_1D_dilated_strided__.py": {
+            "mean": 17.0,
+            "std": 0.261,
+            "min": 16.7,
+            "max": 17.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "77_conv_transposed_3D_square_input_square_kernel___padded____dilated____strided__.py": {
+            "mean": 2.67,
+            "std": 0.00292,
+            "min": 2.67,
+            "max": 2.68,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "78_conv_transposed_2D_asymmetric_input_asymmetric_kernel___padded__.py": {
+            "mean": 8.17,
+            "std": 0.0168,
+            "min": 8.16,
+            "max": 8.34,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "79_conv_transposed_1D_asymmetric_input_square_kernel___padded____strided____dilated__.py": {
+            "mean": 4.87,
+            "std": 0.00391,
+            "min": 4.87,
+            "max": 4.89,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "80_conv_standard_2D_square_input_asymmetric_kernel___dilated____padded__.py": {
+            "mean": 6.86,
+            "std": 0.0044,
+            "min": 6.85,
+            "max": 6.87,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "81_conv_transposed_2D_asymmetric_input_square_kernel___dilated____padded____strided__.py": {
+            "mean": 2.93,
+            "std": 0.0037,
+            "min": 2.92,
+            "max": 2.94,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "82_conv_depthwise_2D_square_input_square_kernel.py": {
+            "mean": 7.13,
+            "std": 0.00422,
+            "min": 7.13,
+            "max": 7.15,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "83_conv_depthwise_2D_square_input_asymmetric_kernel.py": {
+            "mean": 45.4,
+            "std": 0.45,
+            "min": 44.9,
+            "max": 46.4,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "84_conv_depthwise_2D_asymmetric_input_square_kernel.py": {
+            "mean": 28.7,
+            "std": 0.0227,
+            "min": 28.7,
+            "max": 28.9,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "85_conv_depthwise_2D_asymmetric_input_asymmetric_kernel.py": {
+            "mean": 14.6,
+            "std": 0.0123,
+            "min": 14.6,
+            "max": 14.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "86_conv_depthwise_separable_2D.py": {
+            "mean": 13.1,
+            "std": 0.00422,
+            "min": 13.1,
+            "max": 13.1,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "87_conv_pointwise_2D.py": null,
+        "88_MinGPTNewGelu.py": {
+            "mean": 0.597,
+            "std": 0.0018,
+            "min": 0.594,
+            "max": 0.605,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "89_cumsum.py": {
+            "mean": 9.53,
+            "std": 0.0208,
+            "min": 9.52,
+            "max": 9.73,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "90_cumprod.py": {
+            "mean": 9.53,
+            "std": 0.00569,
+            "min": 9.52,
+            "max": 9.54,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "91_cumsum_reverse.py": {
+            "mean": 18.8,
+            "std": 0.00471,
+            "min": 18.8,
+            "max": 18.9,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "92_cumsum_exclusive.py": {
+            "mean": 9.53,
+            "std": 0.00361,
+            "min": 9.52,
+            "max": 9.54,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "93_masked_cumsum.py": {
+            "mean": 10.7,
+            "std": 0.00573,
+            "min": 10.7,
+            "max": 10.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "94_MSELoss.py": {
+            "mean": 8.97,
+            "std": 0.00253,
+            "min": 8.96,
+            "max": 8.98,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "95_CrossEntropyLoss.py": {
+            "mean": 0.606,
+            "std": 0.00274,
+            "min": 0.595,
+            "max": 0.617,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "96_HuberLoss.py": {
+            "mean": 8.97,
+            "std": 0.00277,
+            "min": 8.96,
+            "max": 8.98,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "97_ScaledDotProductAttention.py": {
+            "mean": 14.3,
+            "std": 0.196,
+            "min": 13.9,
+            "max": 14.9,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "98_KLDivLoss.py": {
+            "mean": 2.26,
+            "std": 0.00567,
+            "min": 2.26,
+            "max": 2.28,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "99_TripletMarginLoss.py": {
+            "mean": 3.38,
+            "std": 0.0027,
+            "min": 3.38,
+            "max": 3.39,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "100_HingeLoss.py": {
+            "mean": 4.49,
+            "std": 0.00345,
+            "min": 4.48,
+            "max": 4.5,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        }
+    },
+    "level2": {
+        "1_Conv2D_ReLU_BiasAdd.py": {
+            "mean": 8.47,
+            "std": 0.0234,
+            "min": 8.45,
+            "max": 8.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "2_ConvTranspose2d_BiasAdd_Clamp_Scaling_Clamp_Divide.py": {
+            "mean": 22.4,
+            "std": 0.00641,
+            "min": 22.3,
+            "max": 22.4,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "3_ConvTranspose3d_Sum_LayerNorm_AvgPool_GELU.py": {
+            "mean": 8.61,
+            "std": 0.00401,
+            "min": 8.6,
+            "max": 8.62,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "4_Conv2d_Mish_Mish.py": {
+            "mean": 17.2,
+            "std": 0.0144,
+            "min": 17.2,
+            "max": 17.2,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "5_ConvTranspose2d_Subtract_Tanh.py": {
+            "mean": 13.0,
+            "std": 0.00736,
+            "min": 12.9,
+            "max": 13.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "6_Conv3d_Softmax_MaxPool_MaxPool.py": {
+            "mean": 1.23,
+            "std": 0.00303,
+            "min": 1.23,
+            "max": 1.26,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "7_Conv3d_ReLU_LeakyReLU_GELU_Sigmoid_BiasAdd.py": {
+            "mean": 7.69,
+            "std": 0.00434,
+            "min": 7.68,
+            "max": 7.72,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "8_Conv3d_Divide_Max_GlobalAvgPool_BiasAdd_Sum.py": {
+            "mean": 5.57,
+            "std": 0.00309,
+            "min": 5.56,
+            "max": 5.59,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "9_Matmul_Subtract_Multiply_ReLU.py": {
+            "mean": 3.36,
+            "std": 0.107,
+            "min": 3.15,
+            "max": 3.48,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "10_ConvTranspose2d_MaxPool_Hardtanh_Mean_Tanh.py": {
+            "mean": 24.4,
+            "std": 0.0238,
+            "min": 24.4,
+            "max": 24.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "11_ConvTranspose2d_BatchNorm_Tanh_MaxPool_GroupNorm.py": {
+            "mean": 5.19,
+            "std": 0.0038,
+            "min": 5.18,
+            "max": 5.21,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "12_Gemm_Multiply_LeakyReLU.py": {
+            "mean": 3.4,
+            "std": 0.0841,
+            "min": 3.16,
+            "max": 3.51,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "13_ConvTranspose3d_Mean_Add_Softmax_Tanh_Scaling.py": {
+            "mean": 31.0,
+            "std": 0.407,
+            "min": 30.2,
+            "max": 33.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "14_Gemm_Divide_Sum_Scaling.py": {
+            "mean": 3.46,
+            "std": 0.0922,
+            "min": 3.15,
+            "max": 3.56,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "15_ConvTranspose3d_BatchNorm_Subtract.py": {
+            "mean": 2.74,
+            "std": 0.00412,
+            "min": 2.73,
+            "max": 2.75,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "16_ConvTranspose2d_Mish_Add_Hardtanh_Scaling.py": {
+            "mean": 22.3,
+            "std": 0.019,
+            "min": 22.3,
+            "max": 22.5,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "17_Conv2d_InstanceNorm_Divide.py": {
+            "mean": 9.79,
+            "std": 0.00724,
+            "min": 9.78,
+            "max": 9.81,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "18_Matmul_Sum_Max_AvgPool_LogSumExp_LogSumExp.py": {
+            "mean": 3.22,
+            "std": 0.0888,
+            "min": 2.95,
+            "max": 3.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "19_ConvTranspose2d_GELU_GroupNorm.py": {
+            "mean": 26.7,
+            "std": 0.026,
+            "min": 26.6,
+            "max": 26.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "20_ConvTranspose3d_Sum_ResidualAdd_Multiply_ResidualAdd.py": {
+            "mean": 3.69,
+            "std": 0.00324,
+            "min": 3.69,
+            "max": 3.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "21_Conv2d_Add_Scale_Sigmoid_GroupNorm.py": {
+            "mean": 7.38,
+            "std": 0.0275,
+            "min": 7.33,
+            "max": 7.55,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "22_Matmul_Scale_ResidualAdd_Clamp_LogSumExp_Mish.py": {
+            "mean": 3.45,
+            "std": 0.137,
+            "min": 3.16,
+            "max": 3.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "23_Conv3d_GroupNorm_Mean.py": {
+            "mean": 1.29,
+            "std": 0.00413,
+            "min": 1.29,
+            "max": 1.32,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "24_Conv3d_Min_Softmax.py": {
+            "mean": 1.1,
+            "std": 0.00307,
+            "min": 1.09,
+            "max": 1.11,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "25_Conv2d_Min_Tanh_Tanh.py": {
+            "mean": 7.68,
+            "std": 0.00281,
+            "min": 7.67,
+            "max": 7.68,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "26_ConvTranspose3d_Add_HardSwish.py": {
+            "mean": 8.39,
+            "std": 0.0234,
+            "min": 8.38,
+            "max": 8.62,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "27_Conv3d_HardSwish_GroupNorm_Mean.py": {
+            "mean": 5.49,
+            "std": 0.00348,
+            "min": 5.48,
+            "max": 5.51,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "28_BMM_InstanceNorm_Sum_ResidualAdd_Multiply.py": {
+            "mean": 3.3,
+            "std": 0.0824,
+            "min": 3.07,
+            "max": 3.43,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "29_Matmul_Mish_Mish.py": {
+            "mean": 3.4,
+            "std": 0.0676,
+            "min": 3.16,
+            "max": 3.49,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "30_Gemm_GroupNorm_Hardtanh.py": {
+            "mean": 3.25,
+            "std": 0.0977,
+            "min": 2.98,
+            "max": 3.42,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "31_Conv2d_Min_Add_Multiply.py": {
+            "mean": 8.47,
+            "std": 0.00724,
+            "min": 8.46,
+            "max": 8.49,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "32_Conv2d_Scaling_Min.py": {
+            "mean": 14.8,
+            "std": 0.0138,
+            "min": 14.7,
+            "max": 14.8,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "33_Gemm_Scale_BatchNorm.py": {
+            "mean": 3.41,
+            "std": 0.072,
+            "min": 3.2,
+            "max": 3.51,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "34_ConvTranspose3d_LayerNorm_GELU_Scaling.py": {
+            "mean": 9.1,
+            "std": 0.00431,
+            "min": 9.09,
+            "max": 9.11,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "35_Conv2d_Subtract_HardSwish_MaxPool_Mish.py": {
+            "mean": 10.2,
+            "std": 0.0185,
+            "min": 10.2,
+            "max": 10.4,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "36_ConvTranspose2d_Min_Sum_GELU_Add.py": {
+            "mean": 1.91,
+            "std": 0.00354,
+            "min": 1.91,
+            "max": 1.93,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "37_Matmul_Swish_Sum_GroupNorm.py": {
+            "mean": 7.63,
+            "std": 0.0554,
+            "min": 7.53,
+            "max": 7.77,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "38_ConvTranspose3d_AvgPool_Clamp_Softmax_Multiply.py": {
+            "mean": 10.2,
+            "std": 0.00734,
+            "min": 10.2,
+            "max": 10.2,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "39_Gemm_Scale_BatchNorm.py": {
+            "mean": 13.1,
+            "std": 0.234,
+            "min": 12.1,
+            "max": 14.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "40_Matmul_Scaling_ResidualAdd.py": {
+            "mean": 12.9,
+            "std": 0.145,
+            "min": 12.2,
+            "max": 13.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "41_Gemm_BatchNorm_GELU_ReLU.py": {
+            "mean": 13.4,
+            "std": 0.186,
+            "min": 12.6,
+            "max": 13.9,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "42_ConvTranspose2d_GlobalAvgPool_BiasAdd_LogSumExp_Sum_Multiply.py": {
+            "mean": 15.0,
+            "std": 0.152,
+            "min": 14.9,
+            "max": 15.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "43_Conv3d_Max_LogSumExp_ReLU.py": {
+            "mean": 5.66,
+            "std": 0.0044,
+            "min": 5.65,
+            "max": 5.68,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "44_ConvTranspose2d_Multiply_GlobalAvgPool_GlobalAvgPool_Mean.py": {
+            "mean": 1.86,
+            "std": 0.00313,
+            "min": 1.85,
+            "max": 1.87,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "45_Gemm_Sigmoid_LogSumExp.py": {
+            "mean": 9.96,
+            "std": 0.0676,
+            "min": 9.45,
+            "max": 10.1,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "46_Conv2d_Subtract_Tanh_Subtract_AvgPool.py": {
+            "mean": 10.2,
+            "std": 0.00583,
+            "min": 10.2,
+            "max": 10.2,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "47_Conv3d_Mish_Tanh.py": {
+            "mean": 4.34,
+            "std": 0.00436,
+            "min": 4.33,
+            "max": 4.36,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "48_Conv3d_Scaling_Tanh_Multiply_Sigmoid.py": {
+            "mean": 2.81,
+            "std": 0.00297,
+            "min": 2.81,
+            "max": 2.82,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "49_ConvTranspose3d_Softmax_Sigmoid.py": {
+            "mean": 4.31,
+            "std": 0.0207,
+            "min": 4.3,
+            "max": 4.51,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "50_ConvTranspose3d_Scaling_AvgPool_BiasAdd_Scaling.py": {
+            "mean": 20.1,
+            "std": 0.0068,
+            "min": 20.0,
+            "max": 20.1,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "51_Gemm_Subtract_GlobalAvgPool_LogSumExp_GELU_ResidualAdd.py": {
+            "mean": 6.88,
+            "std": 0.144,
+            "min": 6.43,
+            "max": 7.15,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "52_Conv2d_Activation_BatchNorm.py": {
+            "mean": 4.9,
+            "std": 0.00281,
+            "min": 4.89,
+            "max": 4.91,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "53_Gemm_Scaling_Hardtanh_GELU.py": {
+            "mean": 6.89,
+            "std": 0.0978,
+            "min": 6.38,
+            "max": 7.13,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "54_Conv2d_Multiply_LeakyReLU_GELU.py": {
+            "mean": 11.2,
+            "std": 0.00479,
+            "min": 11.2,
+            "max": 11.2,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "55_Matmul_MaxPool_Sum_Scale.py": {
+            "mean": 6.09,
+            "std": 0.0854,
+            "min": 5.83,
+            "max": 6.23,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "56_Matmul_Sigmoid_Sum.py": {
+            "mean": 7.26,
+            "std": 0.0636,
+            "min": 6.99,
+            "max": 7.36,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "57_Conv2d_ReLU_HardSwish.py": {
+            "mean": 2.28,
+            "std": 0.00383,
+            "min": 2.27,
+            "max": 2.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "58_ConvTranspose3d_LogSumExp_HardSwish_Subtract_Clamp.py": {
+            "mean": 17.9,
+            "std": 0.0257,
+            "min": 17.9,
+            "max": 18.1,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "59_Matmul_Swish_Scaling.py": {
+            "mean": 7.29,
+            "std": 0.0645,
+            "min": 6.94,
+            "max": 7.34,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "60_ConvTranspose3d_Swish_GroupNorm_HardSwish.py": {
+            "mean": 19.9,
+            "std": 0.0223,
+            "min": 19.9,
+            "max": 20.1,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "61_ConvTranspose3d_ReLU_GroupNorm.py": {
+            "mean": 5.37,
+            "std": 0.00217,
+            "min": 5.37,
+            "max": 5.38,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "62_Matmul_GroupNorm_LeakyReLU_Sum.py": {
+            "mean": 3.3,
+            "std": 0.137,
+            "min": 2.98,
+            "max": 3.59,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "63_Gemm_ReLU_Divide.py": {
+            "mean": 3.41,
+            "std": 0.103,
+            "min": 3.16,
+            "max": 3.56,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "64_Gemm_LogSumExp_LeakyReLU_LeakyReLU_GELU_GELU.py": {
+            "mean": 3.19,
+            "std": 0.0906,
+            "min": 2.95,
+            "max": 3.29,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "65_Conv2d_AvgPool_Sigmoid_Sum.py": {
+            "mean": 26.6,
+            "std": 0.00611,
+            "min": 26.6,
+            "max": 26.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "66_Matmul_Dropout_Softmax.py": {
+            "mean": 1.79,
+            "std": 0.0229,
+            "min": 1.75,
+            "max": 1.82,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "67_Conv2d_GELU_GlobalAvgPool.py": {
+            "mean": 6.8,
+            "std": 0.00405,
+            "min": 6.78,
+            "max": 6.81,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "68_Matmul_Min_Subtract.py": {
+            "mean": 1.79,
+            "std": 0.0431,
+            "min": 1.7,
+            "max": 1.85,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "69_Conv2d_HardSwish_ReLU.py": {
+            "mean": 2.28,
+            "std": 0.00269,
+            "min": 2.27,
+            "max": 2.29,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "70_Gemm_Sigmoid_Scaling_ResidualAdd.py": {
+            "mean": 3.4,
+            "std": 0.0806,
+            "min": 3.15,
+            "max": 3.51,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "71_Conv2d_Divide_LeakyReLU.py": {
+            "mean": 2.28,
+            "std": 0.00232,
+            "min": 2.28,
+            "max": 2.29,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "72_ConvTranspose3d_BatchNorm_AvgPool_AvgPool.py": {
+            "mean": 21.7,
+            "std": 0.00971,
+            "min": 21.7,
+            "max": 21.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "73_Conv2d_BatchNorm_Scaling.py": {
+            "mean": 2.78,
+            "std": 0.00248,
+            "min": 2.78,
+            "max": 2.79,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "74_ConvTranspose3d_LeakyReLU_Multiply_LeakyReLU_Max.py": {
+            "mean": 2.45,
+            "std": 0.0027,
+            "min": 2.45,
+            "max": 2.46,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "75_Gemm_GroupNorm_Min_BiasAdd.py": {
+            "mean": 3.25,
+            "std": 0.0936,
+            "min": 2.99,
+            "max": 3.34,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "76_Gemm_Add_ReLU.py": {
+            "mean": 3.46,
+            "std": 0.125,
+            "min": 3.16,
+            "max": 3.67,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "77_ConvTranspose3d_Scale_BatchNorm_GlobalAvgPool.py": {
+            "mean": 11.3,
+            "std": 0.0046,
+            "min": 11.3,
+            "max": 11.4,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "78_ConvTranspose3d_Max_Max_Sum.py": {
+            "mean": 15.7,
+            "std": 0.0209,
+            "min": 15.7,
+            "max": 15.9,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "79_Conv3d_Multiply_InstanceNorm_Clamp_Multiply_Max.py": {
+            "mean": 0.648,
+            "std": 0.00251,
+            "min": 0.643,
+            "max": 0.655,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "80_Gemm_Max_Subtract_GELU.py": {
+            "mean": 3.25,
+            "std": 0.126,
+            "min": 2.95,
+            "max": 3.46,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "81_Gemm_Swish_Divide_Clamp_Tanh_Clamp.py": {
+            "mean": 3.37,
+            "std": 0.115,
+            "min": 3.16,
+            "max": 3.49,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "82_Conv2d_Tanh_Scaling_BiasAdd_Max.py": {
+            "mean": 11.7,
+            "std": 0.00417,
+            "min": 11.7,
+            "max": 11.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "83_Conv3d_GroupNorm_Min_Clamp_Dropout.py": {
+            "mean": 3.24,
+            "std": 0.00404,
+            "min": 3.23,
+            "max": 3.26,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "84_Gemm_BatchNorm_Scaling_Softmax.py": {
+            "mean": 3.26,
+            "std": 0.0839,
+            "min": 3.04,
+            "max": 3.45,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "85_Conv2d_GroupNorm_Scale_MaxPool_Clamp.py": {
+            "mean": 4.05,
+            "std": 0.0178,
+            "min": 4.01,
+            "max": 4.1,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "86_Matmul_Divide_GELU.py": {
+            "mean": 3.39,
+            "std": 0.137,
+            "min": 3.16,
+            "max": 3.64,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "87_Conv2d_Subtract_Subtract_Mish.py": {
+            "mean": 9.29,
+            "std": 0.00568,
+            "min": 9.28,
+            "max": 9.31,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "88_Gemm_GroupNorm_Swish_Multiply_Swish.py": {
+            "mean": 3.21,
+            "std": 0.0688,
+            "min": 3.0,
+            "max": 3.34,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "89_ConvTranspose3d_MaxPool_Softmax_Subtract_Swish_Max.py": {
+            "mean": 19.9,
+            "std": 0.0201,
+            "min": 19.8,
+            "max": 20.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "90_Conv3d_LeakyReLU_Sum_Clamp_GELU.py": {
+            "mean": 14.3,
+            "std": 0.00658,
+            "min": 14.3,
+            "max": 14.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "91_ConvTranspose2d_Softmax_BiasAdd_Scaling_Sigmoid.py": {
+            "mean": 6.41,
+            "std": 0.00484,
+            "min": 6.4,
+            "max": 6.43,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "92_Conv2d_GroupNorm_Tanh_HardSwish_ResidualAdd_LogSumExp.py": {
+            "mean": 2.86,
+            "std": 0.0425,
+            "min": 2.8,
+            "max": 3.22,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "93_ConvTranspose2d_Add_Min_GELU_Multiply.py": {
+            "mean": 5.29,
+            "std": 0.00612,
+            "min": 5.28,
+            "max": 5.32,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "94_Gemm_BiasAdd_Hardtanh_Mish_GroupNorm.py": {
+            "mean": 3.45,
+            "std": 0.102,
+            "min": 3.18,
+            "max": 3.91,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "95_Matmul_Add_Swish_Tanh_GELU_Hardtanh.py": {
+            "mean": 3.43,
+            "std": 0.0939,
+            "min": 3.17,
+            "max": 3.54,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "96_ConvTranspose3d_Multiply_Max_GlobalAvgPool_Clamp.py": {
+            "mean": 22.6,
+            "std": 0.0074,
+            "min": 22.6,
+            "max": 22.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "97_Matmul_BatchNorm_BiasAdd_Divide_Swish.py": {
+            "mean": 3.25,
+            "std": 0.102,
+            "min": 2.99,
+            "max": 3.37,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "98_Matmul_AvgPool_GELU_Scale_Max.py": {
+            "mean": 3.22,
+            "std": 0.116,
+            "min": 2.96,
+            "max": 3.35,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "99_Matmul_GELU_Softmax.py": {
+            "mean": 3.49,
+            "std": 0.101,
+            "min": 3.18,
+            "max": 3.64,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "100_ConvTranspose3d_Clamp_Min_Divide.py": {
+            "mean": 23.3,
+            "std": 0.0119,
+            "min": 23.3,
+            "max": 23.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        }
+    },
+    "level3": {
+        "1_MLP.py": {
+            "mean": 4.26,
+            "std": 0.0394,
+            "min": 4.1,
+            "max": 4.34,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "2_ShallowWideMLP.py": {
+            "mean": 14.4,
+            "std": 0.711,
+            "min": 13.7,
+            "max": 15.5,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "3_DeepNarrowMLP.py": {
+            "mean": 1.79,
+            "std": 0.0346,
+            "min": 1.76,
+            "max": 1.9,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "4_LeNet5.py": {
+            "mean": 0.639,
+            "std": 0.00185,
+            "min": 0.636,
+            "max": 0.646,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "5_AlexNet.py": {
+            "mean": 46.3,
+            "std": 0.0933,
+            "min": 46.2,
+            "max": 46.8,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "6_GoogleNetInceptionModule.py": {
+            "mean": 19.2,
+            "std": 0.0178,
+            "min": 19.2,
+            "max": 19.3,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "7_GoogleNetInceptionV1.py": {
+            "mean": 1.44,
+            "std": 0.00268,
+            "min": 1.44,
+            "max": 1.45,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "8_ResNetBasicBlock.py": {
+            "mean": 2.32,
+            "std": 0.00245,
+            "min": 2.32,
+            "max": 2.33,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "9_ResNet18.py": {
+            "mean": 0.955,
+            "std": 0.0106,
+            "min": 0.937,
+            "max": 1.01,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "10_ResNet101.py": {
+            "mean": 5.07,
+            "std": 0.00654,
+            "min": 5.05,
+            "max": 5.11,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "11_VGG16.py": {
+            "mean": 6.45,
+            "std": 0.0033,
+            "min": 6.43,
+            "max": 6.46,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "12_VGG19.py": {
+            "mean": 7.58,
+            "std": 0.00504,
+            "min": 7.57,
+            "max": 7.61,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "13_DenseNet121TransitionLayer.py": {
+            "mean": 9.91,
+            "std": 0.00273,
+            "min": 9.91,
+            "max": 9.92,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "14_DenseNet121DenseBlock.py": {
+            "mean": 16.1,
+            "std": 0.0151,
+            "min": 16.1,
+            "max": 16.2,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "15_DenseNet121.py": {
+            "mean": 5.04,
+            "std": 0.00974,
+            "min": 5.02,
+            "max": 5.09,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "16_DenseNet201.py": {
+            "mean": 10.5,
+            "std": 0.0163,
+            "min": 10.5,
+            "max": 10.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "17_SqueezeNetFireModule.py": {
+            "mean": 21.2,
+            "std": 0.0242,
+            "min": 21.2,
+            "max": 21.4,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "18_SqueezeNet.py": {
+            "mean": 34.7,
+            "std": 0.0196,
+            "min": 34.7,
+            "max": 34.9,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "19_MobileNetV1.py": {
+            "mean": 1.09,
+            "std": 0.00961,
+            "min": 1.08,
+            "max": 1.13,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "20_MobileNetV2.py": {
+            "mean": 2.02,
+            "std": 0.0148,
+            "min": 2.0,
+            "max": 2.11,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "21_EfficientNetMBConv.py": {
+            "mean": 10.8,
+            "std": 0.0054,
+            "min": 10.7,
+            "max": 10.8,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "22_EfficientNetB0.py": {
+            "mean": 1.67,
+            "std": 0.0334,
+            "min": 1.62,
+            "max": 1.79,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "23_EfficientNetB1.py": {
+            "mean": 1.04,
+            "std": 0.0228,
+            "min": 1.0,
+            "max": 1.12,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "24_EfficientNetB2.py": {
+            "mean": 0.772,
+            "std": 0.0079,
+            "min": 0.758,
+            "max": 0.806,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "25_ShuffleNetUnit.py": {
+            "mean": 20.4,
+            "std": 0.0186,
+            "min": 20.4,
+            "max": 20.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "26_ShuffleNet.py": {
+            "mean": 15.3,
+            "std": 0.0861,
+            "min": 15.2,
+            "max": 15.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "27_RegNet.py": {
+            "mean": 3.17,
+            "std": 0.00509,
+            "min": 3.16,
+            "max": 3.2,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "28_VisionTransformer.py": {
+            "mean": 1.22,
+            "std": 0.00432,
+            "min": 1.21,
+            "max": 1.23,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "29_SwinMLP.py": {
+            "mean": 3.59,
+            "std": 0.0211,
+            "min": 3.55,
+            "max": 3.64,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "30_SwinTransformerV2.py": {
+            "mean": 5.06,
+            "std": 0.0295,
+            "min": 5.02,
+            "max": 5.16,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "31_VisionAttention.py": {
+            "mean": 20.6,
+            "std": 0.0192,
+            "min": 20.5,
+            "max": 20.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "32_ConvolutionalVisionTransformer.py": {
+            "mean": 0.639,
+            "std": 0.00639,
+            "min": 0.629,
+            "max": 0.666,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "33_VanillaRNN.py": {
+            "mean": 8.82,
+            "std": 0.231,
+            "min": 8.41,
+            "max": 9.5,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "34_VanillaRNNHidden.py": {
+            "mean": 3.69,
+            "std": 0.0497,
+            "min": 3.62,
+            "max": 3.85,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "35_LSTM.py": {
+            "mean": 12.3,
+            "std": 0.111,
+            "min": 12.2,
+            "max": 12.6,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "36_LSTMHn.py": {
+            "mean": 12.3,
+            "std": 0.122,
+            "min": 12.2,
+            "max": 13.1,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "37_LSTMCn.py": {
+            "mean": 12.3,
+            "std": 0.143,
+            "min": 12.2,
+            "max": 12.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "38_LSTMBidirectional.py": {
+            "mean": 27.2,
+            "std": 0.162,
+            "min": 26.7,
+            "max": 27.5,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "39_GRU.py": {
+            "mean": 13.1,
+            "std": 0.105,
+            "min": 13.0,
+            "max": 13.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "40_GRUHidden.py": {
+            "mean": 13.1,
+            "std": 0.117,
+            "min": 13.0,
+            "max": 13.7,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "41_GRUBidirectional.py": {
+            "mean": 32.5,
+            "std": 0.263,
+            "min": 32.2,
+            "max": 33.4,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "42_GRUBidirectionalHidden.py": {
+            "mean": 32.5,
+            "std": 0.286,
+            "min": 32.3,
+            "max": 33.9,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "43_MinGPTCausalAttention.py": {
+            "mean": 14.0,
+            "std": 0.0436,
+            "min": 14.0,
+            "max": 14.2,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "44_MiniGPTBlock.py": {
+            "mean": 31.1,
+            "std": 0.115,
+            "min": 31.0,
+            "max": 31.5,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "45_UNetSoftmax.py": {
+            "mean": 11.0,
+            "std": 0.00668,
+            "min": 11.0,
+            "max": 11.0,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "46_NetVladWithGhostClusters.py": {
+            "mean": 1.84,
+            "std": 0.00323,
+            "min": 1.83,
+            "max": 1.85,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "47_NetVladNoGhostClusters.py": {
+            "mean": 1.78,
+            "std": 0.0332,
+            "min": 1.77,
+            "max": 2.11,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "48_Mamba2ReturnY.py": {
+            "mean": 12.4,
+            "std": 0.0107,
+            "min": 12.4,
+            "max": 12.5,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "49_Mamba2ReturnFinalState.py": {
+            "mean": 3.29,
+            "std": 0.0021,
+            "min": 3.28,
+            "max": 3.29,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        },
+        "50_ReLUSelfAttention.py": {
+            "mean": 5.57,
+            "std": 0.00425,
+            "min": 5.56,
+            "max": 5.58,
+            "num_trials": 100,
+            "hardware": "NVIDIA GeForce RTX 4090",
+            "device": "cuda:0"
+        }
+    }
+}
