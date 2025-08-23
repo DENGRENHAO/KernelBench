@@ -16,3 +16,4 @@ archon-ai
 einops
 dotenv
 setuptools
+pynvml
